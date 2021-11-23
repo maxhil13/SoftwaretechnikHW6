@@ -42,7 +42,6 @@ public class BetMore_Game {
         }
 
         if (versuche < 5) {
-
             if (input == 1 && versuche < 5) {
                 versuche++;
                 play(false);
