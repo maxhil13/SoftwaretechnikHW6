@@ -41,14 +41,10 @@ public class BetMore_Game {
             anotherTry();
         }
 
-        if (versuche < 5) {
-            if (input == 1 && versuche < 5) {
-                versuche++;
-                play(false);
-                in.close();
-            } else {
-                in.close();
-            }
+        if (versuche < 5 && input == 1) {
+            versuche++;
+            play(false);
         }
+        in.close();
     }
 }
